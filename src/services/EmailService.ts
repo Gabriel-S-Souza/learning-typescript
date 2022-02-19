@@ -5,7 +5,7 @@ interface IEmailTo { //Começar interfaces com I é uma convensão, não é obri
 interface IEmailMessage {
     subject: string
     content: string
-    attachment?: string[] // o ? é para dizer que esse parâmetro é opicional e o [] é para dizer que é uma array de strings
+    attachment?: string[] // o ? é para dizer que esse parâmetro é opicional e o [] é para dizer que é uma array (nesse caso uma array de strings)
 }
 
 class EmailService {

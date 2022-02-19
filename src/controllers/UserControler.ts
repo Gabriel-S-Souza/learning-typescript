@@ -1,4 +1,4 @@
-import { Request, Response } from "express" // Precisa-se importar esses dados para tipar como Request e Response os métodos do método index "req" e "res"
+import { Request, Response } from "express" // Precisa-se importar esses dados para tipar como Request e Response os parâmetros do método index "req" e "res"
 import EmailService from "../services/EmailService"
 
 const users = [
