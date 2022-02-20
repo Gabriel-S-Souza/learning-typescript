@@ -20,8 +20,8 @@ export default {
             },
 
             message: {
-                    subject: "Saudações",
-                    content: "Seja bem vindo ao sistema" 
+                subject: "Saudações",
+                content: "Seja bem vindo ao sistema" 
                 }
         })
 
