@@ -25,6 +25,6 @@ export default {
                 }
         })
 
-        return res.json(msg)
+        return res.send()
     }
 }
